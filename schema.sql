@@ -23,7 +23,7 @@ CREATE TABLE stream (
 );
 
 CREATE TABLE imdb (
-	id INT PRIMARY KEY
+	id INT PRIMARY KEY,
 	imdb_id VARCHAR,
 	original_title TEXT,
 	title TEXT,

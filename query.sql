@@ -2,8 +2,6 @@
 SELECT * FROM stream;
 SELECT * FROM imdb;
 
-frame = pd.merge(metadata, stream_transformed, left_on = 'title', right_on='title', how = 'inner')
-
 -- Join tables on title
 SELECT 
 s.title,
